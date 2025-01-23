@@ -3,6 +3,138 @@ html {
 }
 /* Reset and base styles */
 
+.Mounja {
+
+  
+  width: 350px;
+  margin: 20px auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.Mounja .header {
+  background-color: #04b004;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.Mounja .header h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.Mounja .header h1 span {
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+}
+
+.Mounja .header p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
+.Mounja .content {
+  padding: 20px;
+}
+
+.Mounja .images {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.Mounja .images img {
+  max-width: 100%;
+}
+
+.Mounja .gratis-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transform: rotate(-15deg);
+}
+
+.Mounja .content p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.Mounja .price {
+  margin-bottom: 20px;
+}
+
+.Mounja .price h2 {
+  font-size: 28px;
+  color: #04b004;
+  margin: 0;
+}
+
+.Mounja .price h2 span {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.Mounja .price p {
+  font-size: 16px;
+  color: #333;
+}
+
+.Mounja .payment-methods {
+  margin: 20px 0;
+}
+
+.Mounja .payment-methods img {
+  max-width: 50px;
+  margin: 0 5px;
+}
+
+.Mounja ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.Mounja ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.Mounja button {
+  background-color: #04b004;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.Mounja button:hover {
+  background-color: #29e200;
+}
+
+.color {
+  background-color: #d41b6e;
+  border-radius: 25px;
+  
+}
+
 
 * {
     margin: 0;
@@ -13,8 +145,8 @@ html {
   body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.5;
-    color: #333;
-    background-color: white;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
   }
   
   .container {
@@ -102,7 +234,7 @@ html {
   
   .product-header p {
     font-size: 1.25rem;
-    color: #666;
+    color: #ffffff;
   }
   
   /* Main Content */
@@ -246,6 +378,9 @@ html {
   
   .cta-section.alternative {
     background: linear-gradient(45deg, #ff1f9c, #ee0175);
+    border-radius: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   
   .cta-section h2 {
@@ -262,7 +397,7 @@ html {
   }
   
   .cta-button {
-    max-width: 400px;
+    max-width: 300px;
     background-color: white;
     color: #ee0175;
   }
@@ -279,7 +414,7 @@ html {
   .benefits h2 {
     font-size: 2.5rem;
     text-align: center;
-    color: #1f2937;
+    color: #ffffff;
     margin-bottom: 2rem;
   }
   
@@ -414,7 +549,7 @@ html {
   .offers-section h2 {
     font-size: 2.5rem;
     text-align: center;
-    color: #1f2937;
+    color: #ffffff;
     margin-bottom: 2rem;
   }
   
@@ -504,7 +639,7 @@ html {
   .faq-section h2 {
     font-size: 2.5rem;
     text-align: center;
-    color: #1f2937;
+    color: #ffffff;
     margin-bottom: 2rem;
   }
   
@@ -515,7 +650,7 @@ html {
   
   .faq-item {
     background: white;
-    border-radius: 0.5rem;
+    border-radius: 1.3rem;
     margin-bottom: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
@@ -572,14 +707,14 @@ html {
   
   /* Footer */
   footer {
-    background-color: #f9fafb;
+    background-color: #000000;
     padding: 2rem 0;
     margin-top: 4rem;
     text-align: center;
   }
   
   footer p {
-    color: #666;
+    color: #b2abab;
   }
   
   .disclaimer {
@@ -766,13 +901,10 @@ html {
   flex-direction: column; /* Colocar o título acima da imagem */
   justify-content: center;
   align-items: center;
-  background-color: #f9f9f9; /* Fundo neutro */
   padding: 2rem; /* Espaçamento interno */
-  margin: 2rem auto; /* Espaçamento externo */
+  margin: 1rem auto; /* Espaçamento externo */
   border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
-  max-width: 1200px; /* Largura máxima */
-  text-align: center; /* Centralizar o texto */
+  max-width: 100% /* Largura máxima */
 }
 
 .infographic-section h2 {
@@ -796,6 +928,149 @@ html {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
 }
 
+
+
+/* Botão específico para o produto */
+
+
+.produto-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos do modal (mantidos os mesmos) */
+.modal {
+  display: none; /* Modal está oculto ao carregar a página */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease-out;
+}
+
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  animation: slideIn 0.4s ease-out;
+  color: black;
+}
+
+/* Botões de escolha */
+.city-button {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.city-button.natal {
+  background: #d41b6e;
+}
+
+.city-button.natal:hover {
+  background: rgb(168, 13, 91);
+  transform: scale(1.02);
+}
+
+.city-button.minas {
+  background: #32cd32;
+}
+
+.city-button.minas:hover {
+  background: #56e056;
+  transform: scale(1.02);
+}
+
+/* Botão fechar */
+.close-button {
+  background: #444;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+  background: #666;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateY(-50px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+
+.aviso {
+  background-color: #ffffff; /* Cor verde neon */
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #ee0175; /* Cor do texto */
+  position: relative;
+  max-width: 375px;
+  margin: 20px auto;
+  font-weight: bold;
+  margin-bottom: 50px
+}
+
+.aviso::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.aviso h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.aviso p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+}
 
 
 .mounja-section {
