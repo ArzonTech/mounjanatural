@@ -26,7 +26,7 @@ html {
   /* Announcement bar */
   .announcement {
     background-color: #ee0175;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 1rem;
     font-weight: 500;
@@ -34,12 +34,28 @@ html {
   
   /* Hero Carousel */
   .hero-carousel {
-    background-image: url(https://images.pexels.com/photos/14513405/pexels-photo-14513405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(WELLNESS-SHOT.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: rgb(255, 255, 255);
     height: 400px;
   }
+
+  .hero-carousel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Altere o preto e a opacidade aqui */
+    z-index: 1;
+}
+
+.hero-carousel > * {
+    position: relative;
+    z-index: 2; /* Para que o conteúdo fique acima do overlay */
+}
   
   .hero-content {
     height: 100%;
