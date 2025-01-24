@@ -180,7 +180,6 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Altere o preto e a opacidade aqui */
     z-index: 1;
 }
 
@@ -923,6 +922,7 @@ html {
 
 
 .infographic-section {
+  background-color: white;
   display: flex;
   flex-direction: column; /* Colocar o título acima da imagem */
   justify-content: center;
@@ -935,7 +935,7 @@ html {
 
 .infographic-section h2 {
   font-size: 1.5rem; /* Tamanho do título */
-  color: #ffffff; /* Cor do texto */
+  color: #000000; /* Cor do texto */
   margin-bottom: 1rem; /* Espaço entre o título e a imagem */
   font-weight: bold; /* Negrito no título */
   text-align: center;
