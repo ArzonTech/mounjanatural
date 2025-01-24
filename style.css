@@ -895,6 +895,32 @@ html {
   }
 }
 
+.oferta-destaque {
+  position: relative;
+  max-width: 400px; /* Ajuste conforme o tamanho da oferta */
+  margin: 20px auto;
+  border: 2px solid #d41b6e; /* Opcional: destaque na borda */
+  border-radius: 8px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tag-destaque {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: #d41b6e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  z-index: 10;
+}
+
+
 
 .infographic-section {
   display: flex;
