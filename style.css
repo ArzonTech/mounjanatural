@@ -957,7 +957,10 @@ html {
 
 
 /* Botão específico para o produto */
-
+.produto-button {
+	text-decoration: none;
+	color: white;
+}
 
 .produto-button:hover {
   transform: scale(1.05);
